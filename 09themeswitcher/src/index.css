@@ -1,0 +1,37 @@
+@import 'tailwindcss';
+
+/* index.css or App.css */
+
+:root {
+  --color-bg: #ffffff;
+  --color-text: #000000;
+  --color-card-bg: #ffffff;
+  --color-border: #e5e7eb;
+  --color-primary: #1d4ed8;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-bg: #1f2937;
+    --color-text: #ffffff;
+    --color-card-bg: #1f2937;
+    --color-border: #374151;
+    --color-primary: #3b82f6;
+  }
+}
+
+html.theme-light {
+  --color-bg: #ffffff;
+  --color-text: #000000;
+  --color-card-bg: #ffffff;
+  --color-border: #e5e7eb;
+  --color-primary: #1d4ed8;
+}
+
+html.theme-dark {
+  --color-bg: #1f2937;
+  --color-text: #ffffff;
+  --color-card-bg: #1f2937;
+  --color-border: #374151;
+  --color-primary: #3b82f6;
+}
